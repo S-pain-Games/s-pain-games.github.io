@@ -16,7 +16,7 @@
   --bs-purple: #7464a1;
   --bs-pink: #d63384;
   --bs-red: #a16468;
-  --bs-light-brown: #8b5d32;
+  --bs-light-brown: rgb(128, 86, 48);
   --bs-dark-red: #9a031e;
   --bs-light-gray: #e7dada;
   --bs-orange: #fd7e14;
@@ -7966,6 +7966,11 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-white-75 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -11708,4 +11713,16 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.content-box {
+  /*color: rgba(255, 255, 255, 0.5);*/
+
+  -webkit-box-shadow:inset 10px 10px 5px 1px rgba(255, 255, 255, 0.5);
+  box-shadow:inset 10px 10px 5px 1px rgba(255, 255, 255, 0.5);
+}
+
+.content-box-inverse{
+  -webkit-box-shadow:inset -10px -10px 5px 1px rgba(255, 255, 255, 0.5);
+  box-shadow:inset -10px -10px 5px 1px rgba(255, 255, 255, 0.5);
 }
