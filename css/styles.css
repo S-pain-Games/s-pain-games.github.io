@@ -11726,3 +11726,8 @@ body {
   -webkit-box-shadow:inset -10px -10px 5px 1px rgba(255, 255, 255, 0.5);
   box-shadow:inset -10px -10px 5px 1px rgba(255, 255, 255, 0.5);
 }
+
+.border-box{
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
+}
