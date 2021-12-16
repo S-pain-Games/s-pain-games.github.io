@@ -26,9 +26,19 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#members">Members</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about" eo-translator="about" eo-translator-html="true">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects" eo-translator="projects" eo-translator-html="true">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#members" eo-translator="members" eo-translator-html="true">Members</a></li>
+                        <li class="nav-item">
+                            <div class="icon-menu input-controls nav-link">
+                                <div>
+                                    <select id="globalTranslate">
+                                            <option value="en">English</option>
+                                            <option value="es">Spanish</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +49,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">S-Pain Games</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Indie game development studio</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5" eo-translator="indie" eo-translator-html="true">Indie game development studio</h2>
                     </div>
                 </div>
             </div>
@@ -49,8 +59,8 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Who are we</h2>
-                        <p class="text-white-50">
+                        <h2 class="text-white mb-4" eo-translator="who" eo-translator-html="true">Who are we</h2>
+                        <p class="text-white-50" eo-translator="we_are" eo-translator-html="true">
                             We are a group of university students who develop indie video games. We specialize in 2D resource management video games with a Pixel Art style.
                             You can check out our projects in
                             <a href="https://s-pain-games.itch.io"> our Itch.io site.</a>
@@ -62,7 +72,7 @@
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="text-center">
-                <h1 class="text-black mb-4 text-center">Our projects</h1>
+                <h1 class="text-black mb-4 text-center" eo-translator="our_projects" eo-translator-html="true">Our projects</h1>
             </div>
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
@@ -71,7 +81,7 @@
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Cookie Quest Maker</h4>
-                            <p class="text-black-50 mb-0">Create magical cookie minions and give them missions to complete. The Beta version is available right now!</p>
+                            <p class="text-black-50 mb-0" eo-translator="cookies_intro" eo-translator-html="true">Create magical cookie minions and give them missions to complete. The Beta version is available right now!</p>
                         </div>
                     </div>
                 </div>
@@ -82,12 +92,11 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100 content-box-inverse">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Talk at daytime, Bake at night-time</h4>
-                                    <p class="mb-0 text-white-75">Manage your bakery and talk to the townsfolk at daytime.</p>
-                                    <br>
-                                    <p class="mb-0 text-white-75">Craft your cookie shaped minions at night and send them to help.</p>
-                                    <br>
-                                    <p class="mb-0 text-white-75">Unlock advanced cookie recipes to bake different types of cookie minions.</p>
+                                    <h4 class="text-white" eo-translator="feature_1_title" eo-translator-html="true">Talk at daytime, Bake at night-time</h4>
+                                    <p class="mb-0 text-white-75" eo-translator="feature_1_desc" eo-translator-html="true">
+                                        Manage your bakery and talk to the townsfolk at daytime. 
+                                        Craft your cookie shaped minions at night and send them to help.
+                                        Unlock advanced cookie recipes to bake different types of cookie minions.</p>
                                 </div>
                             </div>
                         </div>
@@ -100,10 +109,11 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100 content-box">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Rebake the world</h4>
-                                    <p class="mb-0 text-white-75">Tons of quests with multiple outcomes. </p>
-                                    <br>
-                                    <p class="mb-0 text-white-75">Improve the prosperity of the town, make everyone happy.</p>
+                                    <h4 class="text-white" eo-translator="feature_2_title" eo-translator-html="true">Rebake the world</h4>
+                                    <p class="mb-0 text-white-75"  eo-translator="feature_2_desc" eo-translator-html="true">
+                                        Tons of quests with multiple outcomes. 
+                                        Improve the prosperity of the town, make everyone happy.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +123,7 @@
                 <!-- Project link-->
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <a class="btn btn-primary" href="https://s-pain-games.itch.io/cookie-quest-maker">Check out the Beta version here</a>
+                        <a class="btn btn-primary" href="https://s-pain-games.itch.io/cookie-quest-maker" eo-translator="game_page_button" eo-translator-html="true">Check out the Beta version here</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +132,7 @@
         <!-- Contact-->
         <section class="contact-section bg-black" id="members">
             <div class="text-center">
-                <h1 class="text-white mb-4 text-center">Our team members</h1>
+                <h1 class="text-white mb-4 text-center" eo-translator="our_teams" eo-translator-html="true">Our team members</h1>
             </div>
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -132,7 +142,7 @@
                                 <i class="fas fa-code text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Antonio Arian Silaghi</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Programmer</div>
+                                <div class="small text-black-50" eo-translator="programmer" eo-translator-html="true">Programmer</div>
                             </div>
                         </div>
                     </div>
@@ -142,7 +152,7 @@
                                 <i class="fas fa-gamepad text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Carlos Del Águila Mateu</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Game designer</div>
+                                <div class="small text-black-50" eo-translator="designer" eo-translator-html="true">Game designer</div>
                             </div>
                         </div>
                     </div>
@@ -152,7 +162,7 @@
                                 <i class="fas fa-paint-brush text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Carlos Rodríguez Sánchez Roldán</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">2D Artist</div>
+                                <div class="small text-black-50" eo-translator="artist" eo-translator-html="true">2D Artist</div>
                             </div>
                         </div>
                     </div>
@@ -162,7 +172,7 @@
                                 <i class="fas fa-code text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Jesús David Rojo Martín</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Programmer</div>
+                                <div class="small text-black-50" eo-translator="programmer" eo-translator-html="true">Programmer</div>
                             </div>
                         </div>
                     </div>
@@ -176,7 +186,7 @@
                                 <i class="fas fa-code text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">José Fernando Medina Talavera</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Programmer</div>
+                                <div class="small text-black-50" eo-translator="programmer" eo-translator-html="true">Programmer</div>
                             </div>
                         </div>
                     </div>
@@ -186,7 +196,7 @@
                                 <i class="fas fa-code text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Norman Peter Stankewitz</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Programmer</div>
+                                <div class="small text-black-50" eo-translator="programmer" eo-translator-html="true">Programmer</div>
                             </div>
                         </div>
                     </div>
@@ -196,7 +206,7 @@
                                 <i class="fas fa-paint-brush text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Yerón Martín Sánchez</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">2D Artist</div>
+                                <div class="small text-black-50" eo-translator="artist" eo-translator-html="true">2D Artist</div>
                             </div>
                         </div>
                     </div>
@@ -217,6 +227,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+	    <!-- Translate JS. -->
+	    <script src="js/translator.min.js"></script>
+
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

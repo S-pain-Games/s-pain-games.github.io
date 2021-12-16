@@ -51,4 +51,74 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+
+    var dictionary = {
+        'en':
+        {
+            'about': 'About',
+            "projects": "Projects",
+            "members": "Members",
+            "indie": "Indie game development studio",
+            "who": "Who are we",
+            "we_are": "We are a group of university students who develop indie video games. We specialize in 2D resource management video games with a Pixel Art style. You can check out our projects in our Itch.io site.",
+            "our_projects": "Our projects",
+            "cookies_intro": "Create magical cookie minions and give them missions to complete. The 1.0 version is available right now!",
+            "feature_1_title": "Talk at daytime, Bake at night-time",
+            "feature_1_desc": "Manage your bakery and talk to the townsfolk at daytime. <br> Craft your cookie shaped minions at night and send them to help. <br> Unlock advanced cookie recipes to bake different types of cookie minions.",
+            "feature_2_title": "Rebake the world",
+            "feature_2_desc": "Tons of quests with multiple outcomes. <br> Improve the prosperity of the town, make everyone happy, or the opposite.",
+            "game_page_button": "CHECK OUT THE BETA VERSION HERE",
+            "our_teams": "Our team members",
+            "programmer": "Programmer",
+            "designer": "Game designer",
+            "artist": "2D Artist"
+          },
+          'es':
+          {
+            "about": "Sobre nosotros",
+            "projects": "Proyectos",
+            "members": "Miembros",
+            "indie": "Equipo de desarrollo de juegos indie",
+            "who": "Quienes somos",
+            "we_are": "Somos un grupo de estudiantes universitarios que desarrollan videojuegos indie. Nos especializamos en videojuegos 2D con estilo Pixel Art. Puedes ver nuestros proyectos en nuestra página de Itch.io.",
+            "our_projects": "Nuestros proyectos",
+            "cookies_intro": "Hornea ayudantes en forma de Galletas mágicas y otórgales misiones para completar. La versión 1.0 estará disponible pronto.",
+            "feature_1_title": "Habla con los vecinos por el día, Hornea por la noche",
+            "feature_1_desc": "Gestiona tu pastelería y habla con los vecinos por el día. <br>Hornea tus ayudantes con forma de galleta por la noche y envíalos a ayudar.<br> Desbloquea recetas de galletas avanzadas para hornear diferentes tipos de galletas ayudantes.",
+            "feature_2_title": "Cambia el mundo.",
+            "feature_2_desc": "Multitud de misiones con múltiples resultados. <br> Restaura la prosperidad del pueblo, haz a todo el mundo feliz, o todo lo contrario.",
+            "game_page_button": "ECHA UN VISTAZO A LA VERSIÓN 1.0 DEL JUEGO",
+            "our_teams": "Nuestro equipo",
+            "programmer": "Programador",
+            "designer": "Diseñador",
+            "artist": "Artista 2D"
+          }
+    }
+
+  // Creating a translator instance
+  var translator = new EOTranslator(dictionary);
+
+  // Getting the DOM elements
+  var globalTranslate = document.getElementById('globalTranslate');
+
+  // Setting the default language
+  globalTranslate.value = document.documentElement.lang || 'en';
+
+  // Translating the greeting input when the greet button is clicked
+  globalTranslate.addEventListener('change', function () {
+    var language = globalTranslate.value;
+
+    try {
+      translator.translateDOM(document.body, language);
+    } catch (e) {
+      alert(e);
+    }
+  });
+
+  // Invoking the change event
+  globalTranslate.dispatchEvent(new Event('change'));
+
+
 });
+
+
