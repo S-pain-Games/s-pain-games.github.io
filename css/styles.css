@@ -11731,3 +11731,56 @@ body {
   -webkit-border-radius: 50px 50px 50px 50px;
   border-radius: 50px 50px 50px 50px;
 }
+
+
+.section-header{
+  background-image: url("../assets/img/dialogue_box.png");
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.section-header p{
+  color: #ffffff;
+  font-size: calc(100% + 2vw + 2vh);
+}
+
+.feature-section{
+  background-image: url("../assets/img/FONDO_CQM_2K.png");
+  background-attachment: fixed;
+  padding-top: 10px;
+}
+
+.feature-description{
+  background-image: url("../assets/img/Names_box.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.feature-description p{
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.custom-font{
+  font-family: 'Grandstander', cursive;
+}
+
+.custom-font-bold{
+  font-family: 'Grandstander', cursive;
+  font-weight: bold;
+}
+
+.page_title_image{
+  text-align: center;
+  margin-top: 50px;
+}

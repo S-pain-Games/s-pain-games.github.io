@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>S-Pain Games</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/icon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -45,11 +45,16 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <!-- S-Pain logo-->
+            <div class="container px-4 px-lg-5 d-flex align-items-center justify-content-center">
+                <div class="page_title_image">
+                    <img src="assets/img/esepain_logo_bright.png"/>
+                </div>
+            </div>
+            <div class="container px-4 px-lg-5 d-flex align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">S-Pain Games</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5" eo-translator="indie" eo-translator-html="true">Indie game development studio</h2>
+                         <h2 class="text-white-50 mx-auto mt-2 mb-5" eo-translator="indie" eo-translator-html="true">Indie game development studio</h2>
                     </div>
                 </div>
             </div>
@@ -69,25 +74,44 @@
                 </div>
             </div>
         </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="text-center">
-                <h1 class="text-black mb-4 text-center" eo-translator="our_projects" eo-translator-html="true">Our projects</h1>
+
+        <section class="text-center" id="projects">
+            <!-- Game header section-->
+            <div class="section-header text-center text-lg-left custom-font-bold">
+                <p>Cookie Quest Maker</p>
             </div>
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/cookie-quest-image.png" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Cookie Quest Maker</h4>
-                            <p class="text-black-50 mb-0" eo-translator="cookies_intro" eo-translator-html="true">Create magical cookie minions and give them missions to complete. The Beta version is available right now!</p>
+
+            <div class="feature-section">
+                
+                <div class="row justify-content-center">
+                    <div class="col-md-2">
+                        <img class="d-none d-md-block" src="assets/img/nu.gif" alt="..."/>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-description custom-font">
+                            <p eo-translator="cookies_intro" eo-translator-html="true">
+                                Create magical cookie minions and give them missions to complete. The Beta version is available right now!
+                            </p>
                         </div>
                     </div>
+                    <div class="col-md-2">
+                        <img class="d-none d-md-block" src="assets/img/evith.gif" alt="..." />
+                    </div>
                 </div>
+                <div>
+                    <!-- Trailer-->
+                    <iframe width="70%" height="500" src="https://www.youtube.com/embed/kMBmLEEJk_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <!-- Project link-->
+                     <iframe frameborder="0" src="https://itch.io/embed/1250645?bg_color=b58860&amp;fg_color=ffffff&amp;link_color=ffffff&amp;border_color=97625c" width="552" height="167"><a href="https://s-pain-games.itch.io/cookie-quest-maker">Cookie Quest Maker by S-Pain Games, yeronCArt, Kreithor, Litos, Carlos del Aguila</a></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
                 <!-- Project Content 1-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/captura_dia.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/Bakery_HioAtCounter.gif" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100 content-box-inverse">
@@ -104,7 +128,7 @@
                 </div>
                 <!-- Project Content 2-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/captura_quest.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/MakingQuest_Short.gif" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100 content-box">
@@ -120,12 +144,6 @@
                     </div>
                 </div>
                 <br>
-                <!-- Project link-->
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <a class="btn btn-primary" href="https://s-pain-games.itch.io/cookie-quest-maker" eo-translator="game_page_button" eo-translator-html="true">Check out the Beta version here</a>
-                    </div>
-                </div>
             </div>
            
         </section>
