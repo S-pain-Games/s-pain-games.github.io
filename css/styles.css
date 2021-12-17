@@ -11752,6 +11752,7 @@ body {
 .feature-section{
   background-image: url("../assets/img/FONDO_CQM_2K.png");
   background-attachment: fixed;
+  background-repeat: repeat;
   padding-top: 10px;
 }
 
@@ -11763,14 +11764,24 @@ body {
 
 .feature-description p{
   color: #ffffff;
-  font-size: calc(60% + 1vw + 1vh);
+  font-size: calc(60% + 0.6vw + 0.6vh);
 
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding-right: 5%;
   padding-left: 5%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.feature-container{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.feature-image{
+  height: 25vh;
+  width: 15vh;
 }
 
 .custom-font{
@@ -11785,4 +11796,10 @@ body {
 .page_title_image{
   text-align: center;
   margin-top: 50px;
+}
+
+.frame-video{
+  height: 100vh;
+  width: 150vh;
+  display:block;
 }
