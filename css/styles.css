@@ -11737,16 +11737,16 @@ body {
   background-image: url("../assets/img/dialogue_box.png");
   margin-left: 0%;
   margin-right: 0%;
-  height: 100px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-top: 50px;
-  padding-bottom: 120px;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .section-header p{
   color: #ffffff;
   font-size: calc(100% + 2vw + 2vh);
+  vertical-align: middle;
 }
 
 .feature-section{
