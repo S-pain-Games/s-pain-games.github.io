@@ -11763,12 +11763,14 @@ body {
 
 .feature-description p{
   color: #ffffff;
-  font-size: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  font-size: calc(60% + 1vw + 1vh);
 
   margin-left: 10%;
   margin-right: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .custom-font{
