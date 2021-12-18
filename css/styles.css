@@ -11716,10 +11716,13 @@ body {
 }
 
 .content-box {
+  background-image: url("../assets/img/dialogue_box.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   /*color: rgba(255, 255, 255, 0.5);*/
 
-  -webkit-box-shadow:inset 10px 10px 5px 1px rgba(255, 255, 255, 0.5);
-  box-shadow:inset 10px 10px 5px 1px rgba(255, 255, 255, 0.5);
+  /*-webkit-box-shadow:inset 10px 10px 5px 1px rgba(255, 255, 255, 0.5);*/
+  /*box-shadow:inset 10px 10px 5px 1px rgba(255, 255, 255, 0.5);*/
 }
 
 .content-box-inverse{
@@ -11746,7 +11749,6 @@ body {
 .section-header p{
   color: #ffffff;
   font-size: calc(100% + 2vw + 2vh);
-  vertical-align: middle;
 }
 
 .feature-section{
